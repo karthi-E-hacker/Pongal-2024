@@ -1,0 +1,95 @@
+.h1 {
+            color: #333;
+  text-align: center;
+}
+.h3 {
+  text-align: center;
+}
+
+.p {
+            color: #666;
+            margin-bottom: 20px;
+}
+
+img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+}
+
+.form {
+            max-width: 300px;
+            margin: 0 auto;
+}
+input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+}
+li{
+  margin: 20px;
+}
+
+.button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            
+}
+
+.button:hover {
+            background-color: #45a049;}
+}
+.input{
+  margin-left: 20px;
+}
+.btn btn-primary {
+  padding: 5px 15px;
+  margin: 50px;
+}
+.slider {
+        width: 350px;
+        height: 200px;
+        background-color: yellow;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
